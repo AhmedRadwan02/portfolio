@@ -100,13 +100,14 @@ a:hover{
     right: 0;
     background-color: white;
     width: fit-content;
-    max-height: 0;
+    max-height: 0; /* Change this with JavaScript or a CSS class to show the menu */
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
-    margin-bottom: 1rem;
-    padding-bottom: 2rem;
-
+    transition: all 0.3s ease-in-out;
+    /* Consider visibility or display properties for toggling visibility */
+    /* Removed margin-bottom as it may not be effective with absolute positioning */
+    padding-bottom: 1rem;
   }
+  
   
   .menu-links a {
     display: block;
