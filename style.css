@@ -29,13 +29,6 @@ a,
 }
 
 /* Desktop Nav */
-#desktop-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* This ensures the nav stays above other content */
-    background-color: #fff; /* Optional: Adds a background color to the nav bar */
-}
 
 nav, 
 .nav-links {
