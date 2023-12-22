@@ -72,10 +72,6 @@
         flex-direction: column;
     }
 
-    .details-container {
-        width: 100%;
-        /* Reset or adjust other properties as needed */
-    }
     .contact-info-container {
       margin: 0;
     }
