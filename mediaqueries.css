@@ -1,17 +1,25 @@
 @media screen and (max-width: 1400px) {
-    #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    .about-containers {
-      flex-wrap: wrap;
-    }
-    #contact,
-    #projects, #personalDev {
-      height: fit-content;
-    }
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
   }
-  
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects, #personalDev {
+    height: fit-content;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+
   @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
